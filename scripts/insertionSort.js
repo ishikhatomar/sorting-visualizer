@@ -14,8 +14,8 @@ function Insertion(){
             div_update(divs[i+1],div_sizes[i+1],"bf0603");//Height update
     
             div_update(divs[i],div_sizes[i],"03045e");//Color update
-            if(i==(j-1)){
-                div_update(divs[i+1],div_sizes[i+1],"ffff3f");//Color update
+            if(i==(j-1)){ 
+                div_update(divs[j],key,"ffff3f");//Color update  //key!=div_sizes[j]; div_sizes[j] changed at line 11. hence replaced with prev preserved key
             }
             else{
                 div_update(divs[i+1],div_sizes[i+1],"03045e");//Color update

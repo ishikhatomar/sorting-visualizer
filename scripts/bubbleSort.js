@@ -12,7 +12,7 @@ function Bubble(){
                 div_update(divs[j],div_sizes[j],"#03045e");//blue
                 div_update(divs[j+1],div_sizes[j+1],"#03045e");//blue
             }
-            div_update(divs[j],div_sizes[j], "#ff6542");//Color update
+            div_update(divs[j],div_sizes[j], "#63b7af");//Color update
         }
         div_update(divs[j],div_sizes[j], "#0f4c5c");//Color green update
     }
